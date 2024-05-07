@@ -1,9 +1,79 @@
-.motos{
-    background-color: grey;
-    margin-bottom: 15px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/*Estilos para la cabecera*/
+.header{
+    background-color: grey;
+    height: 100px;
+    position: sticky;
+    color: white;
+    top: 0;
+    align-content: center;
 
-.body{
-    background-color: lightgreen;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:30px;
+    margin-left: 30px;
+    
+}
+
+.logo{
+    align-content: center;
+}
+.spanlogo{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navegador{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.navegador a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    background-color: rgb(155, 76, 76);
+    height: 700px;
+}
+
+.seccion-slider{
+   width: 1280px;
+   height: auto;
+   margin: 50px auto 0;     
+   overflow: hidden;
+}
+
+.seccion-slider ul{
+    display: flex;
+    width: 500%;
+    padding: 0;
+
+}
+
+.seccion-slider li{
+    list-style: none;
+    width: 100%;
+
+}
+
+.seccion-slider img{
+    width: 100%;
 }
