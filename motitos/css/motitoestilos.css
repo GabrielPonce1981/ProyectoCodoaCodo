@@ -15,10 +15,12 @@
 .menu li {
     position: relative;
     display: inline-block;
+    background-color: black;
 }
 
 .menu li:hover ul {
     display: block;
+    background-color: black;
 }
 
 .menu ul {
