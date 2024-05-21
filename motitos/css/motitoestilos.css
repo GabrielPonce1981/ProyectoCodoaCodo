@@ -35,7 +35,7 @@
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
 .menu ul li a:hover {
@@ -45,11 +45,11 @@
 .menu li a {
 text-decoration: none;
 padding: 10px;
-color: red;
+color: white;
 }
 
 h1 {
-    color: red;
+    color: white;
     background-color: black;
     text-align: center;
     font-size: 40px;
@@ -70,7 +70,7 @@ body {
 /* footer */
 
 p {
-    color: red;
+    color: white;
     float: left;
     background-color: black;
     font-weight: bold;
